@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ES2021"
+        ],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "outDir": "./bin",
+        "sourceMap": true,
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

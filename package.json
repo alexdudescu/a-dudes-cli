@@ -4,9 +4,12 @@
     "description": "A(lex) Dude(scu)'s CLI - My cli tool for general productivity right at my fingertips",
     "main": "src/main.ts",
     "bin": {
-        "dude": "./bin/index.js"
+        "dude": "./bin/main.js"
     },
-    "scripts": {},
+    "scripts": {
+        "build:dev": "tsc",
+        "watch": "tsc --watch"
+    },
     "keywords": [
         "alex",
         "dudescu",
