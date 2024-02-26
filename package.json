@@ -7,8 +7,8 @@
         "dude": "./bin/main.js"
     },
     "scripts": {
-        "build:dev": "tsc",
-        "watch": "tsc --watch"
+        "build": "tsup",
+        "dev": "tsup --watch"
     },
     "keywords": [
         "alex",
@@ -19,6 +19,8 @@
     "author": "Alex Dudescu",
     "license": "MIT",
     "devDependencies": {
+        "@types/node": "^20.11.20",
+        "tsup": "^8.0.2",
         "typescript": "^5.3.3"
     },
     "dependencies": {
