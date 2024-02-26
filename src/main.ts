@@ -1,3 +1,5 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 
-console.log("Hello Dude!");
+import { program } from '@commands/commands';
+
+program?.parse();

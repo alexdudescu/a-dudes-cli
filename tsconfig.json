@@ -29,7 +29,16 @@
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
-        "useDefineForClassFields": true
+        "useDefineForClassFields": true,
+        "paths": {
+            "@utils/*": [
+                "utils/*"
+            ],
+            "@commands/*": [
+                "commands/*"
+            ]
+        },
+        "baseUrl": "./src"
     },
     "include": [
         "./src/**/*",
