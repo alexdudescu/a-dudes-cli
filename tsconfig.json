@@ -9,8 +9,8 @@
         "module": "Node16",
         "moduleResolution": "nodenext",
         "resolveJsonModule": true,
-        "allowJs": true,
-        "checkJs": true,
+        "allowJs": false,
+        "checkJs": false,
         "outDir": "./bin",
         "noEmit": true,
         "declaration": true,
@@ -30,22 +30,15 @@
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
         "useDefineForClassFields": true,
+        "baseUrl": "./src",
         "paths": {
-            "@utils/*": [
-                "utils/*"
-            ],
-            "@commands/*": [
-                "commands/*"
+            "~/*": [
+                "./*"
             ]
         },
-        "baseUrl": "./src"
     },
     "include": [
-        "./src/**/*",
+        "./src/**/*.ts",
         "tsup.config.ts"
-    ],
-    "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
     ]
 }

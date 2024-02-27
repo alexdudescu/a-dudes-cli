@@ -2,10 +2,10 @@
     "name": "a-dudes-cli",
     "version": "0.0.1",
     "description": "A(lex) Dude(scu)'s CLI - My cli tool for general productivity right at my fingertips",
-    "main": "src/main.ts",
     "bin": {
         "dude": "./bin/main.js"
     },
+    "exports": "./bin/main.js",
     "scripts": {
         "build": "tsup",
         "dev": "tsup --watch"
