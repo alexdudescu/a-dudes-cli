@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import { program } from '@commands/commands';
+import 'dotenv/config';
+
+import { program } from '~/commands/commands';
 
 program?.parse();
